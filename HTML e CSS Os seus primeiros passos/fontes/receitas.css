@@ -1,0 +1,117 @@
+body{
+	background-color: #F5F0DC;
+	font-family: helvetica, Arial, sans-serif;
+	width: 940px;
+	margin: auto;
+}
+
+#titulo{
+	text-align: center;
+}
+
+h2{
+	background-color: #B3A742;
+	background:-webkit-linear-gradient(top, #9C8F67, #C7BE9B 30%);
+	padding: 5px;
+	color: #000000;
+
+	border-radius:15px;
+	border: 1px solid black;
+
+}
+
+/*
+REMOVA O SEGUINTE BLOCO DE ESTILOS
+nav ul li{
+	display: inline;
+	margin-right: 50px;
+
+}
+*/
+
+#conteudo{
+	 float:right;
+     width:740px;
+}
+
+#banner{
+	top:0;
+	right: 0;
+	position:absolute;
+}
+
+
+
+nav{
+	float: left;
+	width:200px;
+}
+
+
+
+nav ul li {
+    background: #C7BE9B;
+}
+
+nav ul li {
+    background: #C7BE9B;
+    padding:3px;
+    margin-bottom:5px;
+}
+
+nav ul li a{
+    color:black;
+    /** Para remover o sublinhado dos links, basta utilizar a propriedade text-decoration, com o valor none **/
+    text-decoration:none;
+}
+
+
+nav ul{
+	/** Para remover as bolinhas que fican no item de nenu**/
+    list-style:none;
+
+    /** para remover o espacamento dos intens do menu**/
+    padding-left:0;
+}
+
+
+nav ul li:hover{
+	 background-color:#9C8F67;
+}
+
+#tb_nutrientes{
+	border: 1px solid black;
+	width: 40%;
+	margin: auto;
+}
+
+#tb_nutrientes th{
+	background-color: #F8EA6B;
+}
+
+#tb_nutrientes tr:nth-child(odd){
+	background-color: #FFFFFF;
+}
+
+#tb_nutrientes tr:nth-child(even){
+	background-color: #F8EAB3;
+}
+
+figure{
+	background-color:white;
+	width:400px;
+	text-align:center;
+	padding:15px;
+	font-family:'Comic Sans MS',cursive;
+	border:1px solid black;
+
+	box-shadow:5px 5px 3px rgba(0,0,0,0.7);
+
+	/* assim ele far[a uma tansicao mais suave usando tempo */
+	transition: all .2s;
+	
+}
+
+figure:hover{
+    -webkit-transform:rotate(-5deg) scale(1.5);
+}
