@@ -1,18 +1,78 @@
 body {
-   	font-family: "Crimson Text","Times New Roman", serif;
+    font-family: "Crimson Text", "Times New Roman", serif;
     background-color: #F2FFFC;
 }
 
-h1, h2 {
-    font-family: "Open Sans Condensed","Arial", sans-serif;
+h1,
+h2 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
 h1 {
-	text-align: center;
+    text-align: center;
     background-color: #851944;
-    color: #FFF;  
+    color: #FFF;
 }
 
 p {
     text-align: justify;
+}
+
+main {    
+    width: 720px;
+    margin: 0px auto;
+}
+
+main h1 {
+    text-align: center;
+    background-color: #851944;
+    color: #FFF;
+    padding: 25px;
+    margin: 0px;
+    line-height: 1.5px;
+}
+
+blockquote{
+    background-color: #D9E5E3;
+    border: 10px solid #C2CCAA; 
+    width: 250px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav a{
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+}
+
+footer{
+    background-color: black;
+    color: #F2FFFC;
+}
+
+aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+}
+
+ul {
+    color: pink;
+}
+
+ul li a {
+    color: inherit;
+}
+
+main a {
+    color: #851944;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+
+blockquote, aside, footer {
+    padding: 20px;
 }
